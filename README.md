@@ -35,3 +35,5 @@ Once you have set up the `.env` file, you are now ready to run the backend serve
 2. Navigate to `localhost:${PORT}/graphql` (where `PORT` corresponds to the mapped value in `.env`) to interact with the GraphQL playground for this server.
 
 3. To run the unit tests, run `deno task test` in the *root* directory of this codebase.
+
+The unit tests will utilize the same Postgres database as the backend server (that starts when you run the command `deno task dev`). The unit tests will reset the Postgres server each time you run it. Thus, please keep in mind that all data in the database *will be erased* when you run the unit tests. 
