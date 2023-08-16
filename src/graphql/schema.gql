@@ -1,0 +1,11 @@
+type LoginResponse {
+    accessToken: ID,
+    username: String
+}
+
+type Query {
+  backend: String,
+  login(email: String, password: String): LoginResponse,
+  auth: String,
+  admin: String
+}

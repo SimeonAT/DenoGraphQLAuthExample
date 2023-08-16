@@ -1,0 +1,13 @@
+## Environment variables
+
+```
+PORT=
+DATABASE=
+DB_USERNAME=
+DB_PASSWORD=
+DB_PORT=
+DB_HOST=
+SECRET_ALG=
+JWT_ISSUER=
+JWT_AUDIENCE=
+```

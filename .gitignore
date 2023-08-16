@@ -1,0 +1,8 @@
+.env
+.vscode
+.DS_Store
+deno.lock
+cov*
+secret
+node_modules
+package-lock.json

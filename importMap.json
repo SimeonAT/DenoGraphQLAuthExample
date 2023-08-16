@@ -1,0 +1,17 @@
+{
+  "imports": {
+    "superoak": "https://deno.land/x/superoak@4.7.0/mod.ts",
+    "oakcors": "https://deno.land/x/cors/mod.ts",
+    "superdeno": "https://deno.land/x/superdeno/mod.ts",
+    "dotenv": "https://deno.land/std@0.197.0/dotenv/mod.ts",
+    "oak": "https://deno.land/x/oak@v12.6.0/mod.ts",
+    "base64": "https://deno.land/std@0.195.0/encoding/base64.ts",
+    "postgres": "https://deno.land/x/postgres@v0.17.0/mod.ts",
+    "assert": "https://deno.land/std@0.194.0/testing/asserts.ts",
+    "bdd": "https://deno.land/std@0.194.0/testing/bdd.ts",
+    "gql": "https://deno.land/x/gql@1.1.2/mod.ts",
+    "graphql_tools": "https://deno.land/x/graphql_tools@0.0.2/mod.ts",
+    "graphql_tag": "https://deno.land/x/graphql_tag@0.0.1/mod.ts",
+    "jose": "https://deno.land/x/jose@v4.14.4/index.ts"
+  }
+}
