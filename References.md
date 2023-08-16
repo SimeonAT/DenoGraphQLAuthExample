@@ -1,4 +1,4 @@
-Below is a list of all the helpful resources that I read when working on the source code in the /scripts directory.
+Below is a list of all the helpful resources that I read when working on the backend source code.
 
 * https://kb.vander.host/security/how-to-generate-rsa-public-and-private-key-pair-in-pkcs8-format/
 * https://security.stackexchange.com/questions/256794/should-i-specify-jwt-audience-and-issuer-if-i-have-only-one-spa-client

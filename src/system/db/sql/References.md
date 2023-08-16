@@ -1,4 +1,4 @@
-Below is a list of all the helpful resources that I read when working on the source code in the /scripts directory.
+Below is a list of all the helpful resources that I read when working on the SQL files.
 
 * https://www.postgresql.org/docs/current/tutorial-fk.html
 * https://www.postgresql.org/docs/9.5/functions-json.html
