@@ -1,4 +1,4 @@
-# Authentication for a Deno Oak GraphQL Backend Server
+# Authentication Implementation for a Deno Oak GraphQL Backend Server
 
 This repository contains my attempt at implementing basic authentication and authorization for a backend server powered by [Deno](https://deno.land/), [Oak](https://oakserver.github.io/oak/), and [GraphQL](https://graphql.org/).
 
