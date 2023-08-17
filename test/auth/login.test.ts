@@ -33,7 +33,7 @@ bdd.it("Login returns username and access token", async () => {
     })
     .then((login) => {
       assert.assertExists(login.username);
-      assert.assertMatch(login.username, /SimeonTG/);
+      assert.assertMatch(login.username, /SimeonAT/);
 
       assert.assertExists(login.accessToken);
       assert.assert(typeof login.accessToken, typeof "string");

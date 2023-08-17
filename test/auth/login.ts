@@ -4,8 +4,8 @@ import {createApp} from "../../src/app.ts";
 import {LoginRequest} from "../../src/auth/types.ts";
 
 export const simeon: LoginRequest = {
-  email: "simeontg@notrealemail.com",
-  password: "simeontg",
+  email: "simeonat@notrealemail.com",
+  password: "simeonat",
 };
 
 export const rocket: LoginRequest = {
