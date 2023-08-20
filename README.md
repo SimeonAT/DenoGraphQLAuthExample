@@ -2,6 +2,8 @@
 
 This repository contains my attempt at implementing basic authentication and authorization for a backend server powered by [Deno](https://deno.land/), [Oak](https://oakserver.github.io/oak/), and [GraphQL](https://graphql.org/).
 
+More a deeper explanation about the codebase, feel free to take a look at my [blog post](https://simeonat.github.io/).
+
 ## Instructions
 
 ### Setting up the Environment
