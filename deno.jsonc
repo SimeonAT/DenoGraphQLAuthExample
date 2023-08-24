@@ -1,13 +1,15 @@
 {
   "tasks": {
-    "dev": "deno run --watch --allow-read --allow-env --allow-net ./src/server.ts",
-    "bench": "deno bench --allow-read --allow-env --allow-net ./bench/*",
-    "test": "deno task clean && deno task run_tests && deno task coverage && deno task report",
-    "test_actions": "deno task run_tests && deno task coverage",
-    "run_tests": "deno test --coverage=coverage --allow-read --allow-env --allow-net ./test/*",
-    "coverage": "deno coverage ./coverage --lcov --output=cov_profile.lcov",
-    "report": "genhtml -o ./coverage_html cov_profile.lcov && open ./coverage_html/index.html",
-    "clean": "rm -r -f coverage coverage_html cov_profile.lcov"
-  },
-  "importMap": "./importMap.json"
+    "backend": "cd backend && deno task dev",
+    "frontend": "cd frontend && deno task start",
+    "dev": "deno task backend & deno task frontend",
+    "test_backend": "cd backend && deno task test",
+    "test_actions_backend": "cd backend && deno task test_actions",
+    "test": "deno task clean && deno task test_backend",
+    "test_actions": "deno task test_actions_backend",
+    "clean_backend": "cd backend && deno task clean",
+    "clean": "deno task clean_backend",
+    "postgres": "pgcli -h pharaoh -p 5433 -U postgres",
+    "lint": "deno lint"
+  }
 }
