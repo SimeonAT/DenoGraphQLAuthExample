@@ -15,7 +15,7 @@ export default function LoginPage(props: PageProps) {
           Deno GraphQL Login Demonstration
         </h1>
 
-        <p className="mt-4 text-gray-500">
+        <p className="mt-4 text-l text-gray-500">
           This website is a demonstration on how authentication
           and authorization can be implemented using Deno and GraphQL.
         </p>
