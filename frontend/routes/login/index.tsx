@@ -9,15 +9,15 @@ import Login from "../../islands/Login/index.tsx";
  */
 export default function LoginPage(props: PageProps) {
   return (
-    <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+    <div className="mx-auto max-w-screen-xl px-4 py-16">
       <div className="mx-auto max-w-lg text-center">
-        <h1 className="text-2xl font-bold sm:text-3xl">
-          Deno GraphQL Login
+        <h1 className="text-5xl font-bold">
+          Deno GraphQL Login Demonstration
         </h1>
 
         <p className="mt-4 text-gray-500">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et libero nulla
-          eaque error neque ipsa culpa autem, at itaque nostrum!
+          This website is a demonstration on how authentication
+          and authorization can be implemented using Deno and GraphQL.
         </p>
       </div>
       <Login />

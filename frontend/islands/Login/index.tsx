@@ -20,7 +20,7 @@ export default function Login(props: LoginProps) {
         <div className="relative">
           <input
             type="email"
-            className="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+            className="w-full rounded-lg border-gray-200 p-4 pe-12 text-xl shadow-sm"
             placeholder="Enter email"
           />
         </div>
@@ -31,21 +31,16 @@ export default function Login(props: LoginProps) {
         <div className="relative">
           <input
             type="password"
-            className="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+            className="w-full rounded-lg border-gray-200 p-4 pe-12 text-xl shadow-sm"
             placeholder="Enter password"
           />
         </div>
       </div>
 
       <div className="flex items-center justify-between">
-        <p className="text-sm text-gray-500">
-          No account?
-          <a className="underline" href="">Sign up</a>
-        </p>
-
         <button
           type="submit"
-          className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"
+          className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-xl font-medium text-white"
         >
           Sign in
         </button>
