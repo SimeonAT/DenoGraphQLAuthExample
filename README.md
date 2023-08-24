@@ -1,1 +1,1 @@
-# Pharaoh Web App
+# Full Stack Implementation of Deno Authentication
