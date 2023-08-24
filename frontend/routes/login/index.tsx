@@ -2,14 +2,23 @@ import { PageProps } from "$fresh/server.ts";
 
 import Login from "../../islands/Login/index.tsx";
 
+/**
+ * The code for this login page comes from the
+ * Hyper UI Components website:
+ * https://www.hyperui.dev/components/marketing/forms#component-1
+ */
 export default function LoginPage(props: PageProps) {
   return (
-    <div class="my-10 flex flex-col items-center justify-center gap-10">
-      <div class="flex flex-col items-center">
-        <h1 class="text-7xl">Habit Tracker</h1>
-        <h2 class="text-5xl">Web Application</h2>
+    <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-lg text-center">
+        <h1 className="text-2xl font-bold sm:text-3xl">Get started today!</h1>
+
+        <p className="mt-4 text-gray-500">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et libero nulla
+          eaque error neque ipsa culpa autem, at itaque nostrum!
+        </p>
       </div>
-      <Login class="w-1/3" />
+      <Login />
     </div>
   );
 }
