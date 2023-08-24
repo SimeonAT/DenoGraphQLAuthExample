@@ -1,1 +1,1 @@
-# Full Stack Implementation of Deno Authentication
+# Full Stack Implementation of Deno Authentication with GraphQL
