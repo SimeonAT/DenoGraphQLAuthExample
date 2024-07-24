@@ -1,5 +1,7 @@
 Below is a list of all the helpful resources that I read when working on the backend source code.
 
+* https://stackoverflow.com/questions/29377853/how-can-i-use-environment-variables-in-docker-compose
+* https://docs.tibco.com/pub/mash-local/4.1.0/doc/html/docker/GUID-BD850566-5B79-4915-987E-430FC38DAAE4.html
 * https://kb.vander.host/security/how-to-generate-rsa-public-and-private-key-pair-in-pkcs8-format/
 * https://security.stackexchange.com/questions/256794/should-i-specify-jwt-audience-and-issuer-if-i-have-only-one-spa-client
 * https://security.stackexchange.com/questions/209318/jwt-why-is-audience-important

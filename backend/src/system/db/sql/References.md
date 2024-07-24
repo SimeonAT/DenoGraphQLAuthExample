@@ -1,5 +1,7 @@
 Below is a list of all the helpful resources that I read when working on the SQL files.
 
+* https://medium.com/@aedemirsen/execute-sql-commands-at-postgresql-db-startup-with-docker-2be0abadec48
+* https://github.com/docker-library/docs/blob/master/postgres/README.md#initialization-scripts
 * https://www.postgresql.org/docs/current/tutorial-fk.html
 * https://www.postgresql.org/docs/9.5/functions-json.html
 * https://www.postgresql.org/docs/current/pgcrypto.html#id-1.11.7.37.8

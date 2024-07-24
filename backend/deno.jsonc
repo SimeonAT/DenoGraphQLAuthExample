@@ -1,5 +1,7 @@
 {
   "tasks": {
+    "docker": "docker compose up -d",
+    "docker_clean": "docker compose down && docker volume rm $(docker volume ls -q)",
     "dev": "deno run --watch --allow-read --allow-env --allow-net ./src/server.ts",
     "bench": "deno bench --allow-read --allow-env --allow-net ./bench/*",
     "test": "deno task clean && deno task run_tests && deno task coverage && deno task report",
