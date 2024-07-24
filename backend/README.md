@@ -15,18 +15,31 @@ After cloning this repository locally, create a `.env` in the *root* directory o
 ```
 PORT=[The port that the server should run on]
 DATABASE=[The name of the Postgres database to connect to]
-DB_USERNAME=[The username to login into the Postgres database]
-DB_PASSWORD=[The password for the Postgres database]
-DB_PORT=[The port of the Postgres database]
-DB_HOST=[The IP address or hostname of the Postgres database]
+DB_USERNAME=[Set the username of the Postgres database]
+DB_PASSWORD=[Set the password for the Postgres database]
+DB_PORT=[Set the port of the Postgres database]
+DB_HOST=[The IP address or hostname of the Postgres database. By default it should be "localhost".]
 SECRET_ALG="RS256"
 JWT_ISSUER=[The hostname of the backend. By default it should be "localhost".]
 JWT_AUDIENCE=[The hostname of the backend. By default it should be "localhost".]
 ```
 
-The backend codebase does not provide a [PostgreSQL](https://www.postgresql.org/) instance that you can connect to. You must host your own Postgres instance, and enter the details of your PostgreSQL database in the `.env` file before running the backend server. I particuarly recommend using [Docker](https://hub.docker.com/_/postgres) to host your PostgreSQL database.
+Keep in mind that the `JWT_ISSUER` and `JWT_AUDIENCE` fields should be the same, as the JWTs created by this backend server will also only be consumed by this same backend server. If you are running the backend server locally, I recommend you set both fields to `localhost`.
 
-Furthermore, the `JWT_ISSUER` and `JWT_AUDIENCE` fields should be the same, as the JWTs created by this backend server will also only be consumed by this same backend server. If you are running the backend server locally, I recommend you set both fields to `localhost`.
+### Running the Database
+
+You will need [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed on your computer,
+along with the [PostgreSQL Docker Image]([)](https://hub.docker.com/_/postgres).
+
+To start the database, run the following command:
+```bash
+  deno task docker
+```
+
+To close the database, and to delete the volume that is used by it, run:
+```bash
+  deno task docker_clean
+```
 
 ### Running the Backend Server
 
