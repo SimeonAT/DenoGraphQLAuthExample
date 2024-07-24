@@ -45,7 +45,8 @@ To close the database, and to delete the volume that is used by it, run:
 
 Once you have set up the `.env` file, you are now ready to run the backend server. 
 
-1. Navigate to the *root* directory of this project, and run the command `deno task dev` in order to start the server.
+1. Run the commands `deno task docker`, followed by `deno task dev`, in order to
+   start the database and server, respectively.
 
 2. Navigate to `localhost:${PORT}/graphql` (where `PORT` corresponds to the mapped value in `.env`) to interact with the GraphQL playground for this server.
 
