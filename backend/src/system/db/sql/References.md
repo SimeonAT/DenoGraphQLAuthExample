@@ -7,3 +7,4 @@ Below is a list of all the helpful resources that I read when working on the SQL
 * https://www.pgcli.com/
 * https://stackoverflow.com/questions/2240973/how-long-is-the-sha256-hash
 * https://emn178.github.io/online-tools/sha1.html
+* https://github.com/docker-library/docs/blob/master/postgres/README.md#environment-variables
