@@ -1,6 +1,5 @@
 # This Docker Compose file comes from the Postgres Docker documentation:
 # https://github.com/docker-library/docs/blob/master/postgres/README.md#-via-docker-compose-or-docker-stack-deploy
-#
 
 version: '3.9'
 
