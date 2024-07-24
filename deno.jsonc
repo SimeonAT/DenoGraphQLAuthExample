@@ -1,13 +1,13 @@
 {
   "tasks": {
-    "backend": "cd backend && deno task dev",
+    "backend": "cd backend && deno task docker && deno task dev",
     "frontend": "cd frontend && deno task start",
     "dev": "deno task backend & deno task frontend",
     "test_backend": "cd backend && deno task test",
     "test_actions_backend": "cd backend && deno task test_actions",
     "test": "deno task clean && deno task test_backend",
     "test_actions": "deno task test_actions_backend",
-    "clean_backend": "cd backend && deno task clean",
+    "clean_backend": "cd backend && deno task clean && deno task docker_clean",
     "clean": "deno task clean_backend",
     "postgres": "pgcli -h pharaoh -p 5433 -U postgres",
     "lint": "deno lint"
