@@ -10,3 +10,5 @@ Below is a list of all the helpful resources that I read when working on the SQL
 * https://stackoverflow.com/questions/2240973/how-long-is-the-sha256-hash
 * https://emn178.github.io/online-tools/sha1.html
 * https://github.com/docker-library/docs/blob/master/postgres/README.md#environment-variables
+* https://www.postgresql.org/message-id/MEYP282MB1669A6D5FD725BE31EAE844AB6019%40MEYP282MB1669.AUSP282.PROD.OUTLOOK.COM
+* https://www.postgresql.org/docs/8.1/manage-ag-createdb.html
