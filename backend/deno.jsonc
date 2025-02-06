@@ -6,7 +6,7 @@
     "bench": "deno bench --allow-read --allow-env --allow-net ./bench/*",
     "test": "deno task clean && deno task run_tests && deno task coverage && deno task report",
     "test_actions": "deno task run_tests && deno task coverage",
-    "run_tests": "deno test --coverage=coverage --allow-read --allow-env --allow-net ./test/*",
+    "run_tests": "deno test --coverage=coverage --allow-read --allow-env --allow-net --allow-import ./test/*",
     "coverage": "deno coverage ./coverage --lcov --output=cov_profile.lcov",
     "report": "genhtml -o ./coverage_html cov_profile.lcov && open ./coverage_html/index.html",
     "clean": "rm -r -f coverage coverage_html cov_profile.lcov"
