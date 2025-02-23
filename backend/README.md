@@ -29,7 +29,7 @@ Keep in mind that the `JWT_ISSUER` and `JWT_AUDIENCE` fields should be the same,
 ### Running the Database
 
 You will need [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed on your computer,
-along with the [PostgreSQL Docker Image]([)](https://hub.docker.com/_/postgres).
+along with the [PostgreSQL Docker Image](https://hub.docker.com/_/postgres).
 
 To start the database, run the following command:
 ```bash
